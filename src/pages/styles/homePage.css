@@ -1,0 +1,50 @@
+body {
+    background: white;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.header img, h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.greeting {
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button {
+    display: block;
+    width: 30%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer {
+    background: linear-gradient(to right, red, black);
+    height: 50px;
+}

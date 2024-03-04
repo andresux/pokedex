@@ -1,0 +1,55 @@
+.pokedex {
+    padding-bottom: 25px;
+}
+
+.logoHeader {
+    background-color: red;
+}
+
+.pokeLogo {
+    height: 70px;
+    padding-left: 30px;
+}
+
+.blackHeader {
+    background-color: black;
+    padding: 20px;
+}
+
+.pokeHeader {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    gap: 10px;
+}
+
+.pokeHeader h3 {
+    text-align: center;
+    color: black;
+}
+
+.pokeHeader div {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.pokeForm input {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.pokeForm button {
+    border: 1px solid black;
+    padding: 5px;
+    background-color: red;
+    color: white;
+}
+
+.pokeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
